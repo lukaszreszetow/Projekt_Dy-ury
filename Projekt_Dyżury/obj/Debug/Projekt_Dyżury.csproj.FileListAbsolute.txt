@@ -1,0 +1,6 @@
+c:\users\łukasz\documents\visual studio 2015\Projects\Projekt_Dyżury\Projekt_Dyżury\bin\Debug\Projekt_Dyżury.exe.config
+C:\Users\Łukasz\Documents\Visual Studio 2015\Projects\Projekt_Dyżury\Projekt_Dyżury\bin\Debug\Projekt_Dyżury.exe
+C:\Users\Łukasz\Documents\Visual Studio 2015\Projects\Projekt_Dyżury\Projekt_Dyżury\bin\Debug\Projekt_Dyżury.pdb
+C:\Users\Łukasz\Documents\Visual Studio 2015\Projects\Projekt_Dyżury\Projekt_Dyżury\obj\Debug\Projekt_Dyżury.csprojResolveAssemblyReference.cache
+C:\Users\Łukasz\Documents\Visual Studio 2015\Projects\Projekt_Dyżury\Projekt_Dyżury\obj\Debug\Projekt_Dyżury.exe
+C:\Users\Łukasz\Documents\Visual Studio 2015\Projects\Projekt_Dyżury\Projekt_Dyżury\obj\Debug\Projekt_Dyżury.pdb
