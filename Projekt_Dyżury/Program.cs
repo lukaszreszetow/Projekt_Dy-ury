@@ -23,15 +23,14 @@ namespace Projekt_Dyżury
                     caseSwitch = WyborOpcjiWMenu(nowyMiesiac, ref stworzonyPlan);
                 }
                 catch (Exception e)
-                { }
-                finally
                 {
                     Console.Clear();
+                    caseSwitch = nowyMiesiac.blad;
+                    Console.WriteLine("Blad wprowadzania. Sproboj ponownie.");
                 }
             } while (caseSwitch != 0);
                         
-            Console.ReadKey();
-            }
+         }
 
         private static int WyborOpcjiWMenu(Miesiac nowyMiesiac, ref bool stworzonyPlan)
         {
@@ -42,21 +41,25 @@ namespace Projekt_Dyżury
                 case 1:
                     Console.Clear();
                     nowyMiesiac.NowyLekarz();
+                    Console.Clear();
                     break;
                 case 2:
                     Console.Clear();
                     nowyMiesiac.WypisanieIstniejacychLekarzy();
+                    Console.Clear();
                     break;
                 case 3:
                     Console.Clear();
                     nowyMiesiac.switcher = 0;
                     nowyMiesiac.ZmianaDanych();
+                    Console.Clear();
                     break;
                 case 4:
                     Console.Clear();
                     try {
                         nowyMiesiac.TworzenieDyzurow();
                         stworzonyPlan = true;
+                        Console.Clear();
                     }
                     catch(Exception e) {
                         Console.WriteLine("Nie udalo sie stworzyc planu. Może sproboj dodac lekarza?");
@@ -65,6 +68,7 @@ namespace Projekt_Dyżury
                 case 5:
                     Console.Clear();
                     nowyMiesiac.WypisanieIstniejacegoMiesiaca();
+                    Console.Clear();
                     break;
                 case 6:
                     Console.Clear();
@@ -78,10 +82,12 @@ namespace Projekt_Dyżury
                         Console.WriteLine("Nacisnij dowolny przycisk aby przejsc dalej.");
                         Console.ReadKey();
                     }
+                    Console.Clear();
                     break;
                 case 0: System.Environment.Exit(0); break;
                 default:
                     Console.Clear();
+                    Console.WriteLine("Nie ma takiej wartosci, sproboj ponownie.");
                     break;
 
             }

@@ -13,7 +13,7 @@ namespace Projekt_Dyżury
         public int iloscDniNiechcianych { get; set; }
         public string ulubionyDzien { get; set; }
         public char ulubionyDzienPora { get; set; }
-        public abstract void TworzenieNiechcianychDni();
+        public abstract void TworzenieNiechcianychDni(int IloscDniWMiesiacu);
         public abstract void WypisanieNiechcianychDni(int numer);
         public abstract Boolean SprawdzanieNiechianychDni(int numer);
     }
