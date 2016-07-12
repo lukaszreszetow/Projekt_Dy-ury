@@ -1,0 +1,7 @@
+Miesiące mają automatycznie przydzieloną ilość dni.
+Wpisywanie błędnych danych przestało psuć program, prosi on o wprowadzenie ich jeszcze raz lub cofa nas do poprzedniego kroku, 
+zależnie od miejsca w którym popełniamy błąd
+Rozbiłem klasę miesiąc na 3 klasy dzięki temu każda z klas wykonuje jakąś swoją określoną funkcję.
+(Klasa miesiąc -> uruchamianie innych klas, tworzenie i wyswietlanie planu, zapisywanie do notatnika
+Klasa odpalanieprogramu -> służy do zapisania początkowych wiadomości o miesiącu
+Klasa ZmianaDanych -> znajdują się w niej wszystkie metody związane ze zmianami u konkretnych lekarzy)
